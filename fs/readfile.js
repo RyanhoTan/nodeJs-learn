@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.readFile('halo.js','utf-8', function(err, data){
+fs.readFile(__dirname + '/halo.js','utf-8', function(err, data){
     // console.log(err.message);
     // console.log('----------------------------');
     // console.log(data);
@@ -11,3 +11,4 @@ fs.readFile('halo.js','utf-8', function(err, data){
         console.log(data);
     
 })
+

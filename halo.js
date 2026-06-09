@@ -1,2 +1,1 @@
-console.log("halo node.js");
-console.log("halo Ryan");
+console.log("这句话是我通过writefile.js写入的")
